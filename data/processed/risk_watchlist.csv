@@ -1,0 +1,102 @@
+﻿Student_ID,Student_Name,Gender,Attendance_Percentage,Avg_Score,Study_Hours,Risk_Score,Risk_Level,Primary_Risk_Driver,Risk_Factors,Recommended_Action
+STU-0222,Aarav Kapoor,Male,64.7,25.0,1.5,100,High,Attendance,Low attendance (65%); Low average (25.0); Failing Math/Science/English; Low study time (1.5h),Escalate: attendance contract + guardian outreach
+STU-0353,Kabir Parekh,Female,62.6,33.1,1.2,100,High,Attendance,Low attendance (63%); Low average (33.1); Failing Math/Science/English; Low study time (1.2h),Escalate: attendance contract + guardian outreach
+STU-0182,Neel Mehta,Male,64.1,38.2,0.5,100,High,Attendance,Low attendance (64%); Low average (38.2); Failing Science/English; Low study time (0.5h),Escalate: attendance contract + guardian outreach
+STU-0478,Rohan Bhatt,Male,51.6,38.3,1.9,100,High,Attendance,Low attendance (52%); Low average (38.3); Failing Math/English; Low study time (1.9h),Escalate: attendance contract + guardian outreach
+STU-0087,Sahil Patel,Male,63.5,40.8,1.6,100,High,Attendance,Low attendance (64%); Low average (40.8); Failing Science/English; Low study time (1.6h),Escalate: attendance contract + guardian outreach
+STU-0431,Manav Kapoor,Male,63.2,40.6,3.8,90,High,Attendance,Low attendance (63%); Low average (40.6); Failing Math/English,Escalate: attendance contract + guardian outreach
+STU-0422,Trisha Reddy,Female,45.1,41.5,1.6,90,High,Attendance,Low attendance (45%); Low average (41.5); Failing Math; Low study time (1.6h),Escalate: attendance contract + guardian outreach
+STU-0256,Sahil Joshi,Male,63.0,42.2,1.5,90,High,Attendance,Low attendance (63%); Low average (42.2); Failing English; Low study time (1.5h),Escalate: attendance contract + guardian outreach
+STU-0357,Harsh Trivedi,Male,58.2,43.3,1.1,90,High,Attendance,Low attendance (58%); Low average (43.3); Failing Science; Low study time (1.1h),Escalate: attendance contract + guardian outreach
+STU-0427,Bhavya Singh,Female,62.5,43.8,0.5,90,High,Attendance,Low attendance (62%); Low average (43.8); Failing Math; Low study time (0.5h),Escalate: attendance contract + guardian outreach
+STU-0379,Karan Das,Male,51.4,43.9,0.5,90,High,Attendance,Low attendance (51%); Low average (43.9); Failing Science; Low study time (0.5h),Escalate: attendance contract + guardian outreach
+STU-0298,Dhruv Malhotra,Male,67.1,39.0,0.8,85,High,Academic Score,Low attendance (67%); Low average (39.0); Failing Math/Science; Low study time (0.8h),Escalate: structured tutoring plan
+STU-0368,Vihaan Mehta,Male,66.0,39.2,1.7,85,High,Academic Score,Low attendance (66%); Low average (39.2); Failing Science/English; Low study time (1.7h),Escalate: structured tutoring plan
+STU-0168,Kabir Reddy,Male,46.4,40.6,2.5,85,High,Attendance,Low attendance (46%); Low average (40.6); Failing English; Low study time (2.5h),Escalate: attendance contract + guardian outreach
+STU-0416,Aditi Kulkarni,Female,61.9,44.3,2.0,85,High,Attendance,Low attendance (62%); Low average (44.3); Failing Science; Low study time (2.0h),Escalate: attendance contract + guardian outreach
+STU-0201,Yash Iyer,Male,64.6,44.7,2.4,85,High,Attendance,Low attendance (65%); Low average (44.7); Failing Science; Low study time (2.4h),Escalate: attendance contract + guardian outreach
+STU-0141,Shreya Chauhan,Female,71.0,36.6,2.1,80,High,Academic Score,Low attendance (71%); Low average (36.6); Failing Math/Science; Low study time (2.1h),Escalate: structured tutoring plan
+STU-0159,Ritika Rana,Female,51.9,38.6,3.8,80,High,Attendance,Low attendance (52%); Low average (38.6); Failing Math,Escalate: attendance contract + guardian outreach
+STU-0200,Diya Kapoor,Female,67.1,38.8,1.5,75,High,Academic Score,Low attendance (67%); Low average (38.8); Failing Science; Low study time (1.5h),Escalate: structured tutoring plan
+STU-0164,Mihir Singh,Male,54.9,43.4,2.2,75,High,Attendance,Low attendance (55%); Low average (43.4); Low study time (2.2h),Escalate: attendance contract + guardian outreach
+STU-0019,Anika Parekh,Female,66.5,44.3,0.8,75,High,Academic Score,Low attendance (66%); Low average (44.3); Failing English; Low study time (0.8h),Escalate: structured tutoring plan
+STU-0184,Jiya Joshi,Female,72.1,42.4,2.7,70,High,Academic Score,Low attendance (72%); Low average (42.4); Failing Science; Low study time (2.7h),Escalate: structured tutoring plan
+STU-0096,Nikhil Thakur,Male,67.4,42.6,2.2,70,High,Academic Score,Low attendance (67%); Low average (42.6); Failing Math; Low study time (2.2h),Escalate: structured tutoring plan
+STU-0468,Isha Pandey,Female,83.9,34.5,1.6,65,High,Academic Score,Low average (34.5); Failing Math/English; Low study time (1.6h),Escalate: structured tutoring plan
+STU-0367,Vihaan Sharma,Male,83.9,35.5,0.8,65,High,Academic Score,Low average (35.5); Failing Math/Science; Low study time (0.8h),Escalate: structured tutoring plan
+STU-0099,Ananya Nair,Female,75.1,38.3,1.8,65,High,Academic Score,Low average (38.3); Failing Science/English; Low study time (1.8h),Escalate: structured tutoring plan
+STU-0185,Jay Joshi,Male,60.3,46.1,0.5,65,High,Attendance,Low attendance (60%); Low average (46.1); Low study time (0.5h),Escalate: attendance contract + guardian outreach
+STU-0156,Naina Singh,Female,64.8,48.8,1.9,65,High,Attendance,Low attendance (65%); Low average (48.8); Low study time (1.9h),Escalate: attendance contract + guardian outreach
+STU-0281,Kabir Agarwal,Male,61.3,49.5,1.9,65,High,Attendance,Low attendance (61%); Low average (49.5); Low study time (1.9h),Escalate: attendance contract + guardian outreach
+STU-0074,Rahul Pandey,Male,63.3,50.1,1.9,65,High,Attendance,Low attendance (63%); Low average (50.1); Low study time (1.9h),Escalate: attendance contract + guardian outreach
+STU-0295,Pihu Joshi,Female,60.3,50.3,1.4,65,High,Attendance,Low attendance (60%); Low average (50.3); Low study time (1.4h),Escalate: attendance contract + guardian outreach
+STU-0449,Ira Bose,Female,64.0,51.6,1.5,65,High,Attendance,Low attendance (64%); Low average (51.6); Low study time (1.5h),Escalate: attendance contract + guardian outreach
+STU-0101,Naina Nair,Female,61.1,52.4,1.6,65,High,Attendance,Low attendance (61%); Low average (52.4); Low study time (1.6h),Escalate: attendance contract + guardian outreach
+STU-0446,Sara Sharma,Female,58.9,53.7,1.6,65,High,Attendance,Low attendance (59%); Low average (53.7); Low study time (1.6h),Escalate: attendance contract + guardian outreach
+STU-0094,Vihaan Bose,Male,54.2,53.8,0.5,65,High,Attendance,Low attendance (54%); Low average (53.8); Low study time (0.5h),Escalate: attendance contract + guardian outreach
+STU-0119,Ayaan Trivedi,Male,85.2,40.2,2.5,60,High,Academic Score,Low average (40.2); Failing Math/English; Low study time (2.5h),Escalate: structured tutoring plan
+STU-0115,Aditi Iyer,Female,53.5,52.6,2.0,60,High,Attendance,Low attendance (54%); Low average (52.6); Low study time (2.0h),Escalate: attendance contract + guardian outreach
+STU-0206,Rahul Trivedi,Male,58.4,53.9,2.1,60,High,Attendance,Low attendance (58%); Low average (53.9); Low study time (2.1h),Escalate: attendance contract + guardian outreach
+STU-0465,Pranav Thakur,Male,62.9,54.0,2.4,60,High,Attendance,Low attendance (63%); Low average (54.0); Low study time (2.4h),Escalate: attendance contract + guardian outreach
+STU-0336,Nisha Nair,Female,85.6,37.5,3.0,55,Medium,Academic Score,Low average (37.5); Failing Math/English,Support: structured tutoring plan
+STU-0195,Trisha Thakur,Female,75.0,40.5,1.1,55,Medium,Academic Score,Low average (40.5); Failing Science; Low study time (1.1h),Support: structured tutoring plan
+STU-0243,Neel Shah,Male,74.7,45.5,2.6,55,Medium,Attendance,Low attendance (75%); Low average (45.5); Failing English; Low study time (2.6h),Support: attendance contract + guardian outreach
+STU-0406,Aanya Modi,Female,61.8,46.7,3.8,55,Medium,Attendance,Low attendance (62%); Low average (46.7),Support: attendance contract + guardian outreach
+STU-0217,Sahil Jain,Male,62.5,51.5,3.2,55,Medium,Attendance,Low attendance (62%); Low average (51.5),Support: attendance contract + guardian outreach
+STU-0339,Kunal Iyer,Male,59.2,55.7,0.9,53,Medium,Attendance,Low attendance (59%); Low study time (0.9h),Support: attendance contract + guardian outreach
+STU-0308,Pooja Singh,Female,54.8,63.0,1.6,53,Medium,Attendance,Low attendance (55%); Low study time (1.6h),Support: attendance contract + guardian outreach
+STU-0085,Ananya Bhatt,Female,79.6,42.8,2.9,50,Medium,Academic Score,Low average (42.8); Failing Math; Low study time (2.9h),Support: structured tutoring plan
+STU-0384,Kunal Jain,Male,76.1,44.8,2.2,50,Medium,Academic Score,Low average (44.8); Failing English; Low study time (2.2h),Support: structured tutoring plan
+STU-0294,Jay Menon,Male,70.9,48.2,1.8,50,Medium,Attendance,Low attendance (71%); Low average (48.2); Low study time (1.8h),Support: attendance contract + guardian outreach
+STU-0462,Arjun Verma,Male,73.5,49.0,1.8,50,Medium,Attendance,Low attendance (74%); Low average (49.0); Low study time (1.8h),Support: attendance contract + guardian outreach
+STU-0016,Anika Mehta,Female,65.5,49.6,1.6,50,Medium,Attendance,Low attendance (66%); Low average (49.6); Low study time (1.6h),Support: attendance contract + guardian outreach
+STU-0274,Avni Shah,Female,65.3,51.6,0.8,50,Medium,Attendance,Low attendance (65%); Low average (51.6); Low study time (0.8h),Support: attendance contract + guardian outreach
+STU-0385,Ayaan Sinha,Male,71.2,52.1,1.5,50,Medium,Attendance,Low attendance (71%); Low average (52.1); Low study time (1.5h),Support: attendance contract + guardian outreach
+STU-0377,Pihu Bose,Female,65.0,52.3,1.6,50,Medium,Attendance,Low attendance (65%); Low average (52.3); Low study time (1.6h),Support: attendance contract + guardian outreach
+STU-0140,Manav Chauhan,Male,71.7,52.4,1.5,50,Medium,Attendance,Low attendance (72%); Low average (52.4); Low study time (1.5h),Support: attendance contract + guardian outreach
+STU-0174,Ananya Menon,Female,72.5,53.1,0.5,50,Medium,Attendance,Low attendance (72%); Low average (53.1); Low study time (0.5h),Support: attendance contract + guardian outreach
+STU-0400,Arjun Sinha,Male,70.4,53.5,1.8,50,Medium,Attendance,Low attendance (70%); Low average (53.5); Low study time (1.8h),Support: attendance contract + guardian outreach
+STU-0359,Arjun Agarwal,Male,54.4,57.8,2.2,48,Medium,Attendance,Low attendance (54%); Low study time (2.2h),Support: attendance contract + guardian outreach
+STU-0282,Kabir Singh,Male,59.7,60.6,2.0,48,Medium,Attendance,Low attendance (60%); Low study time (2.0h),Support: attendance contract + guardian outreach
+STU-0317,Sneha Joshi,Female,61.2,62.7,2.2,48,Medium,Attendance,Low attendance (61%); Low study time (2.2h),Support: attendance contract + guardian outreach
+STU-0151,Saanvi Chauhan,Female,62.4,64.7,2.6,48,Medium,Attendance,Low attendance (62%); Low study time (2.6h),Support: attendance contract + guardian outreach
+STU-0049,Isha Jain,Female,69.6,46.7,2.6,45,Medium,Attendance,Low attendance (70%); Low average (46.7); Low study time (2.6h),Support: attendance contract + guardian outreach
+STU-0331,Nisha Iyer,Female,71.3,50.5,2.0,45,Medium,Attendance,Low attendance (71%); Low average (50.5); Low study time (2.0h),Support: attendance contract + guardian outreach
+STU-0249,Aditi Patel,Female,72.6,52.5,2.5,45,Medium,Attendance,Low attendance (73%); Low average (52.5); Low study time (2.5h),Support: attendance contract + guardian outreach
+STU-0345,Anika Das,Female,65.0,52.5,2.6,45,Medium,Attendance,Low attendance (65%); Low average (52.5); Low study time (2.6h),Support: attendance contract + guardian outreach
+STU-0257,Anika Iyer,Female,63.7,58.6,3.2,43,Medium,Attendance,Low attendance (64%),Support: attendance contract + guardian outreach
+STU-0193,Tara Bose,Female,83.9,44.2,2.3,40,Medium,Academic Score,Low average (44.2); Low study time (2.3h),Support: structured tutoring plan
+STU-0188,Karan Verma,Female,83.3,45.2,1.8,40,Medium,Academic Score,Low average (45.2); Failing English; Low study time (1.8h),Support: structured tutoring plan
+STU-0443,Ishaan Joshi,Male,77.3,46.3,0.6,40,Medium,Academic Score,Low average (46.3); Failing Science; Low study time (0.6h),Support: structured tutoring plan
+STU-0197,Vihaan Kulkarni,Male,71.6,46.5,3.3,40,Medium,Attendance,Low attendance (72%); Low average (46.5),Support: attendance contract + guardian outreach
+STU-0047,Jay Shah,Male,80.1,47.1,1.3,40,Medium,Academic Score,Low average (47.1); Failing Science; Low study time (1.3h),Support: structured tutoring plan
+STU-0072,Jay Rana,Male,66.9,48.1,4.1,40,Medium,Attendance,Low attendance (67%); Low average (48.1),Support: attendance contract + guardian outreach
+STU-0333,Parth Parekh,Male,69.3,49.8,3.7,40,Medium,Attendance,Low attendance (69%); Low average (49.8),Support: attendance contract + guardian outreach
+STU-0458,Naina Das,Female,70.0,53.6,3.8,40,Medium,Attendance,Low attendance (70%); Low average (53.6),Support: attendance contract + guardian outreach
+STU-0319,Riya Iyer,Female,71.9,54.8,3.7,40,Medium,Attendance,Low attendance (72%); Low average (54.8),Support: attendance contract + guardian outreach
+STU-0136,Arjun Rana,Male,63.2,66.6,2.9,40,Medium,Attendance,Low attendance (63%); Low study time (2.9h),Support: attendance contract + guardian outreach
+STU-0451,Naina Vora,Female,58.8,73.1,2.3,40,Medium,Attendance,Low attendance (59%); Low study time (2.3h),Support: attendance contract + guardian outreach
+STU-0213,Ira Mehta,Female,73.8,55.1,1.4,38,Medium,Attendance,Low attendance (74%); Low study time (1.4h),Support: attendance contract + guardian outreach
+STU-0100,Harsh Malhotra,Male,67.3,57.7,1.9,38,Medium,Attendance,Low attendance (67%); Low study time (1.9h),Support: attendance contract + guardian outreach
+STU-0142,Raj Menon,Male,72.7,58.2,1.9,38,Medium,Attendance,Low attendance (73%); Low study time (1.9h),Support: attendance contract + guardian outreach
+STU-0474,Aditya Patel,Male,71.7,64.0,1.9,38,Medium,Attendance,Low attendance (72%); Low study time (1.9h),Support: attendance contract + guardian outreach
+STU-0092,Naina Jain,Female,76.3,46.8,2.4,35,Medium,Academic Score,Low average (46.8); Failing Math; Low study time (2.4h),Support: structured tutoring plan
+STU-0153,Naina Agarwal,Female,79.1,48.9,2.7,35,Medium,Academic Score,Low average (48.9); Failing Science; Low study time (2.7h),Support: structured tutoring plan
+STU-0242,Diya Trivedi,Female,63.1,76.3,4.4,35,Medium,Attendance,Low attendance (63%),Support: attendance contract + guardian outreach
+STU-0442,Dev Shah,Male,73.3,55.8,2.0,33,Medium,Attendance,Low attendance (73%); Low study time (2.0h),Support: attendance contract + guardian outreach
+STU-0160,Kavya Kapoor,Female,73.2,58.1,2.6,33,Medium,Attendance,Low attendance (73%); Low study time (2.6h),Support: attendance contract + guardian outreach
+STU-0363,Manav Singh,Male,74.6,58.4,2.1,33,Medium,Attendance,Low attendance (75%); Low study time (2.1h),Support: attendance contract + guardian outreach
+STU-0051,Kiara Malhotra,Female,69.8,59.0,2.3,33,Medium,Attendance,Low attendance (70%); Low study time (2.3h),Support: attendance contract + guardian outreach
+STU-0157,Ayaan Vora,Male,71.1,59.7,2.5,33,Medium,Attendance,Low attendance (71%); Low study time (2.5h),Support: attendance contract + guardian outreach
+STU-0144,Veer Iyer,Male,72.6,61.8,2.3,33,Medium,Attendance,Low attendance (73%); Low study time (2.3h),Support: attendance contract + guardian outreach
+STU-0371,Tanmay Chauhan,Male,71.9,62.6,2.8,33,Medium,Attendance,Low attendance (72%); Low study time (2.8h),Support: attendance contract + guardian outreach
+STU-0032,Jay Modi,Male,71.5,64.4,2.9,33,Medium,Attendance,Low attendance (72%); Low study time (2.9h),Support: attendance contract + guardian outreach
+STU-0124,Pranav Das,Male,78.1,45.4,0.5,30,Medium,Academic Score,Low average (45.4); Low study time (0.5h),Support: structured tutoring plan
+STU-0075,Aditi Sharma,Female,80.2,48.0,1.2,30,Medium,Academic Score,Low average (48.0); Low study time (1.2h),Support: structured tutoring plan
+STU-0307,Reyansh Iyer,Male,78.7,50.3,1.9,30,Medium,Academic Score,Low average (50.3); Low study time (1.9h),Support: structured tutoring plan
+STU-0238,Dev Reddy,Male,82.9,50.5,1.0,30,Medium,Academic Score,Low average (50.5); Low study time (1.0h),Support: structured tutoring plan
+STU-0111,Jay Sharma,Male,77.9,53.0,1.7,30,Medium,Academic Score,Low average (53.0); Low study time (1.7h),Support: structured tutoring plan
+STU-0386,Kabir Thakur,Male,77.3,53.6,1.3,30,Medium,Academic Score,Low average (53.6); Low study time (1.3h),Support: structured tutoring plan
+STU-0211,Sahil Chauhan,Male,76.3,53.7,1.3,30,Medium,Academic Score,Low average (53.7); Low study time (1.3h),Support: structured tutoring plan
+STU-0102,Kunal Kapoor,Male,86.3,53.8,1.9,30,Medium,Academic Score,Low average (53.8); Low study time (1.9h),Support: structured tutoring plan
+STU-0329,Pranav Menon,Male,82.9,54.5,0.9,30,Medium,Academic Score,Low average (54.5); Low study time (0.9h),Support: structured tutoring plan

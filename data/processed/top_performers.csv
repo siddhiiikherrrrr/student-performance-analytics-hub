@@ -1,0 +1,11 @@
+﻿Score_Rank,Student_ID,Student_Name,Gender,Avg_Score,Math_Score,Science_Score,English_Score,Attendance_Percentage,Study_Hours
+1,STU-0362,Navya Gupta,Female,96.0,93.5,95.8,98.7,92.6,6.1
+2,STU-0078,Dev Nair,Male,92.3,89.4,93.3,94.2,86.5,5.6
+3,STU-0265,Vanya Jain,Female,91.7,91.2,96.4,87.5,94.1,6.9
+4,STU-0089,Sneha Nair,Female,90.7,94.6,87.6,89.9,98.0,7.8
+5,STU-0139,Harsh Shah,Male,90.5,95.2,86.9,89.3,100.0,6.7
+6,STU-0066,Rohan Patel,Male,89.4,92.2,87.6,88.4,93.1,3.9
+7,STU-0176,Neel Kulkarni,Male,88.7,91.8,89.4,85.0,87.1,6.3
+8,STU-0130,Naina Menon,Female,87.8,86.9,87.2,89.2,100.0,6.7
+9,STU-0095,Pihu Chauhan,Female,87.7,81.9,91.0,90.2,94.7,6.2
+10,STU-0027,Tanmay Vora,Male,87.5,90.4,89.2,83.0,94.4,6.7

@@ -1,0 +1,16 @@
+﻿Subject,Rank_In_Subject,Student_ID,Student_Name,Score
+Math,1,STU-0139,Harsh Shah,95.2
+Math,2,STU-0089,Sneha Nair,94.6
+Math,3,STU-0362,Navya Gupta,93.5
+Math,4,STU-0066,Rohan Patel,92.2
+Math,5,STU-0408,Rohan Joshi,92.0
+Science,1,STU-0265,Vanya Jain,96.4
+Science,2,STU-0362,Navya Gupta,95.8
+Science,3,STU-0063,Kunal Kulkarni,94.7
+Science,4,STU-0335,Yash Parekh,93.6
+Science,5,STU-0078,Dev Nair,93.3
+English,1,STU-0362,Navya Gupta,98.7
+English,2,STU-0078,Dev Nair,94.2
+English,3,STU-0064,Sara Shah,92.9
+English,4,STU-0116,Kavya Singh,90.9
+English,5,STU-0299,Arjun Sharma,90.5

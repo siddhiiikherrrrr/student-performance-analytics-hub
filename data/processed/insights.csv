@@ -1,0 +1,14 @@
+﻿Id,Category,Severity,Insight
+1,Overview,Info,492 students average 64.2/100 across three subjects; 92.7% pass every subject (pass mark 40).
+2,Attendance,Warning,Attendance is a strong lever: every extra 10 percentage points is associated with about +7.0 marks on the average score (r = 0.61).
+3,Attendance,Critical,101 students (20.5%) attend under 75% of classes and score 13.4 marks lower on average (53.5 vs 66.9).
+4,Study Habits,Info,Students studying 5+ hours/day average 75.4 versus 53.8 for those under 3 hours - a 21.6-mark gap (+5.5 marks per extra study hour).
+5,Subjects,Info,"English is the strongest subject (64.6 avg); Science is the weakest (63.6 avg, 96.1% pass rate)."
+6,Equity,Info,Gender gaps of 2+ marks appear in: English (girls +2.8). Consider subject-specific engagement work.
+7,Risk,Critical,101 students (20.5%) need attention - 39 High risk. The most common primary driver is attendance (71 students).
+8,Top Performers,Positive,"The top 10% (50 students) average 84.2 with 90.9% attendance and 5.8 study hours/day, versus 81.4% and 3.6h for everyone else."
+9,Top Performers,Positive,11 upper-quartile students achieve results on at-or-below-median study time - worth interviewing for study-technique best practice.
+10,Data Quality,Info,"Cleaning removed 8 duplicate records and repaired 44 rows with missing or invalid values (median imputation, flagged in Was_Imputed)."
+11,Recommendation,Action,Launch an attendance recovery programme for the 101 students below 75% - the largest and cheapest lever on results.
+12,Recommendation,Action,Assign mentors to the 39 High-risk students this week and review the 62 Medium-risk students in the next fortnightly meeting.
+13,Recommendation,Action,"Run targeted Science revision clinics, and use top performers as peer tutors."

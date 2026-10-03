@@ -1,0 +1,87 @@
+// =====================================================================
+//  Student Performance Analytics Hub - DAX measures
+//  Create a blank table "_Measures" and add these. Table names assumed:
+//  students (fact), subject_scores (long), insights.
+//  Model: students[Student_ID] 1 --- * subject_scores[Student_ID]
+// =====================================================================
+
+// ---------- KPI cards ----------
+Total Students = DISTINCTCOUNT ( students[Student_ID] )
+
+Avg Score = AVERAGE ( students[Avg_Score] )
+
+Avg Attendance % = DIVIDE ( AVERAGE ( students[Attendance_Percentage] ), 100 )      // format 0.0%
+
+Avg Study Hours = AVERAGE ( students[Study_Hours] )
+
+Pass Rate % =
+DIVIDE (
+    CALCULATE ( COUNTROWS ( students ), students[All_Subjects_Passed] = TRUE () ),
+    [Total Students]
+)
+
+Chronic Absentees =
+CALCULATE ( COUNTROWS ( students ), students[Attendance_Percentage] < 75 )
+
+At-Risk Students =
+CALCULATE ( COUNTROWS ( students ), students[Risk_Level] IN { "High", "Medium" } )
+
+High Risk Students =
+CALCULATE ( COUNTROWS ( students ), students[Risk_Level] = "High" )
+
+At-Risk % = DIVIDE ( [At-Risk Students], [Total Students] )
+
+Top Performers =
+CALCULATE ( COUNTROWS ( students ), students[Performance_Tier] = "Top 10%" )
+
+// ---------- Subject analysis (use subject_scores) ----------
+Subject Avg Score = AVERAGE ( subject_scores[Score] )
+
+Subject Pass Rate % =
+DIVIDE (
+    CALCULATE ( COUNTROWS ( subject_scores ), subject_scores[Passed] = TRUE () ),
+    COUNTROWS ( subject_scores )
+)
+
+Distinction Rate % =
+DIVIDE (
+    CALCULATE ( COUNTROWS ( subject_scores ), subject_scores[Distinction] = TRUE () ),
+    COUNTROWS ( subject_scores )
+)
+
+Weakest Subject =
+VAR t = ADDCOLUMNS ( VALUES ( subject_scores[Subject] ), "@avg", [Subject Avg Score] )
+RETURN MINX ( TOPN ( 1, t, [@avg], ASC ), subject_scores[Subject] )
+
+// ---------- Analytics ----------
+Attendance-Score Correlation =
+VAR _n   = COUNTROWS ( students )
+VAR _sx  = SUM ( students[Attendance_Percentage] )
+VAR _sy  = SUM ( students[Avg_Score] )
+VAR _sxy = SUMX ( students, students[Attendance_Percentage] * students[Avg_Score] )
+VAR _sx2 = SUMX ( students, students[Attendance_Percentage] ^ 2 )
+VAR _sy2 = SUMX ( students, students[Avg_Score] ^ 2 )
+RETURN DIVIDE ( _n * _sxy - _sx * _sy, SQRT ( ( _n * _sx2 - _sx ^ 2 ) * ( _n * _sy2 - _sy ^ 2 ) ) )
+
+Score Gap vs Cohort = [Avg Score] - CALCULATE ( [Avg Score], ALL ( students ) )
+
+// ---------- Conditional-format helpers ----------
+Risk Colour =
+SWITCH ( SELECTEDVALUE ( students[Risk_Level] ), "High", "#F87171", "Medium", "#FBBF24", "Low", "#22D3EE", "#94A3B8" )
+
+Attendance KPI Colour =
+IF ( [Avg Attendance %] >= 0.85, "#34D399", IF ( [Avg Attendance %] >= 0.75, "#FBBF24", "#F87171" ) )
+
+// ---------- Dynamic executive summary (responds to every slicer) ----------
+Executive Summary =
+VAR n   = [Total Students]
+VAR sc  = FORMAT ( [Avg Score], "0.0" )
+VAR at  = FORMAT ( [Avg Attendance %], "0.0%" )
+VAR rk  = FORMAT ( [At-Risk Students], "#,0" )
+VAR rkp = FORMAT ( [At-Risk %], "0.0%" )
+VAR wk  = [Weakest Subject]
+RETURN
+    "This selection covers " & FORMAT ( n, "#,0" ) & " students averaging " & sc & "/100 with "
+    & at & " attendance. " & rk & " students (" & rkp & ") are flagged Medium or High risk. "
+    & "The weakest subject is " & wk & "; correlation between attendance and results is "
+    & FORMAT ( [Attendance-Score Correlation], "0.00" ) & "."
