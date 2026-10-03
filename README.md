@@ -10,7 +10,7 @@ Python pipeline plus a 5-page Power BI dashboard that analyzes student scores, a
 
 ## Key findings
 
-- Average score: 64.63, overall pass rate: 96.5%
+- Average score: 64.18, overall pass rate: 96.5%
 - Average attendance: 82.4%
 - Higher attendance bands have clearly higher average scores
 
